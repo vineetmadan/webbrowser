@@ -21,9 +21,11 @@ Puppet module to install Chrome and/or Firefox on CentOS
 ## Usage
 
 To install Chrome:
+
 	class { 'webbrowser::chrome': }
 
-To install Firefox
+To install Firefox:
+
     class { 'webbrowser::firefox': }
 
 
